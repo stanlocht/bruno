@@ -1,4 +1,9 @@
 body {
-    background-color: blanchedalmond;
+    color: rgba(230, 201, 105, 0.795);
+    font-family: "Andale Mono", AndaleMono, monospace;
 }
 
+p {
+    font-size: 30px;
+    color: rgb(199, 178, 108);
+  }
