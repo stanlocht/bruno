@@ -63,8 +63,11 @@ h1 {
     margin-bottom:  0;
 }
 
-.home .tracktitle {
+.tracktitle {
     font-size: 0.8em;
+}
+.tracktitle h1{
+    color: #5d5a29;
 }
 
 .lyrictitle {
