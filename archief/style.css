@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgba(230, 201, 105, 0.795);
+    font-family: "Andale Mono", AndaleMono, monospace;
+}
+
+p {
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+
+
+#output {
+    float:left;
+}

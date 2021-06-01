@@ -1,9 +1,17 @@
- 
-let wave = new Wave(); 
-options = {type:"bars"};
-wave.fromElement("speelplein","output", options);
+var audioPaused = true;
+var first = true;
+var audio = null;
 
-
-
-
-// colors:["rgb(136, 110, 26)", "rgb(187, 161, 77)", "rgb(199, 178, 108)"]
+function playAudio(url) {
+    if (audioPaused) {
+        if (first) {
+            audio = new Audio(url);
+            first = false;
+        }
+        audio.play();
+        audioPaused = false;
+    } else {
+        audio.pause();
+        audioPaused = true;
+    }
+}

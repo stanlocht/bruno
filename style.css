@@ -1,9 +1,156 @@
+@font-face {
+    font-family: customAlbert;
+    src: url(files/AlbertusMTStdLight.otf);
+  }
+
 body {
-    color: rgba(230, 201, 105, 0.795);
-    font-family: "Andale Mono", AndaleMono, monospace;
+    margin: 0;
+    padding: 0;
 }
 
-p {
-    font-size: 20px;
-    color: rgb(199, 178, 108);
-  }
+a {
+    text-decoration: none;
+}
+
+.home {
+    height: 100vh;
+    background: #efe6d4;
+    align-items: center; 
+    color: #5d5a29;
+}
+
+.story {
+    text-align: center;
+    background: #5f584e;
+    color: #e8b268;
+    padding: 0 28%;
+}
+
+.storytitle {
+    margin-top: 6em;
+    font-size: 0.8em;
+}
+
+.storytitle h1{
+    color: #e8b268;
+}
+
+.storytext {
+    text-align: justify;
+    margin-top: 8em;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.storytext p {
+    margin-bottom: 1.8em;
+}
+
+h1 {
+    /* font-family: 'Albertus Medium'; */
+    font-family: customAlbert;
+}
+
+
+
+
+.home h1 {
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom:  0;
+}
+
+.home .tracktitle {
+    font-size: 0.8em;
+}
+
+.lyrictitle {
+    font-size: 0.7em;
+    margin-top: 4em;
+}
+
+.hometitle {
+    margin-top: 10em;
+}
+
+.oogenoor {
+    background: url(imgs/spiraal.png) no-repeat center;
+    background-size: 350px auto;
+    width: 404px;
+    height: 350px;
+    margin: 4em auto;
+    padding: 0;
+}
+
+.oogenoor img {
+    width: 150px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+
+.tracks {
+    align-items: center;
+    margin: 5em auto;
+    width: 50%;
+}
+
+.track {
+    text-align: center;
+    margin: 0.4em auto;
+}
+
+.tracks a {
+    font-size: 1.8em;
+    color: #5d5a29;
+    font-family: customAlbert;
+}
+
+
+.lyrics {
+    color: #5d5a29;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 6em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+
+.hands {
+    align-items: center;
+    background: url(imgs/handen.png) no-repeat center;
+    width: 20vw;
+    height: 20vw;
+    background-size: contain;
+    position: absolute;
+    top:15%;
+    left: 70%;
+}
+
+.play {
+    position: relative;
+    width: 8%;
+    height: auto;
+    top: 43%;
+    left: 46%;
+    cursor: pointer;
+}
+
+.next {
+    width: 0.7em;
+    float: right;
+
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.previous {
+    width: 0.7em;
+    float: left;
+
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
