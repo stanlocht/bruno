@@ -16,6 +16,7 @@ a {
     height: 100vh;
     background: #efe6d4;
     align-items: center; 
+    align-content: center;
     color: #5d5a29;
 }
 
@@ -23,13 +24,23 @@ a {
     text-align: center;
     background: #5f584e;
     color: #e8b268;
-    padding: 0 28%;
+    padding: 0 20%;
+    max-width: 600px;
+    margin: auto;
 }
 
 .storytitle {
     margin-top: 6em;
     font-size: 0.8em;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .story{
+        padding: 0 12%;
+    }
+
+  }
 
 .storytitle h1{
     color: #e8b268;
@@ -51,10 +62,9 @@ a {
 h1 {
     /* font-family: 'Albertus Medium'; */
     font-family: customAlbert;
+    max-width: max-content;
+    margin: auto;
 }
-
-
-
 
 .home h1 {
     font-size: 1.8em;
