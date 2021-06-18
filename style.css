@@ -296,3 +296,16 @@ h1 {
     height: auto;
     margin: 1.5em auto;
 }
+
+
+.romans {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+}
+
+.romans a {
+    font-family: gouldy;
+    text-decoration: none;
+    color: black;
+}
