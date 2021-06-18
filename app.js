@@ -12,7 +12,7 @@ function playAudio(url) {
         }
         audio.play();
         audioPaused = false;
-        pPause.src = "imgs/oog.png"
+        pPause.src = "imgs/pauzebutton.png"
     } else {
         audio.pause();
         audioPaused = true;

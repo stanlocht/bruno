@@ -19,7 +19,10 @@
             <a href="index.html">
                 <h1>BROKEN BABY BIRD</h1>
             </a>
+            <div class="streepje"></div>
+            <div class="ondertitel"> </div>
         </div>
+        
 
         <div class="lyrics">
             My figurine<br>
@@ -46,6 +49,7 @@
             Oh, she's hurt
         </div>
 
+
         <div class="hands">
             <img src="imgs/grijze_triangel.png" id="play-btn" alt="play" class="play" onclick='playAudio("audio/02.wav")'>
         </div>
@@ -54,6 +58,11 @@
             <input type="range" class="slider" id="volume-control" value="100" >
         </div>
         
+        <audio controls class="playertje">
+            <source src="audio/02.wav" type="audio/wav">
+          Your browser does not support the audio element.
+          </audio>
+
 
         <script src="https://cdn.jsdelivr.net/gh/foobar404/wave.js/dist/bundle.iife.js"></script>
         <script src="app.js"></script>
