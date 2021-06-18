@@ -259,4 +259,40 @@ h1 {
 .brokebaby {
     background-image: url(imgs/achtergrond_1.jpg);
     background-size: cover;
+    background-position: center;
+}
+
+.about a{
+    position: absolute;
+    font-family: gouldy;
+    text-decoration: none;
+    color: #5d5a29;
+    left: 6px;
+    bottom: 0;
+}
+
+.insta a{
+    position: absolute;
+    font-family: gouldy;
+    text-decoration: none;
+    color: #5d5a29;
+    right: 6px;
+    bottom: 0;
+}
+
+.brunotext {
+    font-family: gouldy;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 300px;
+    margin: 0 auto;
+    line-height: 1.3;
+
+}
+
+.bruno {
+    width: 250px;
+    height: auto;
+    margin: 1.5em auto;
 }
