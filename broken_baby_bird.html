@@ -46,9 +46,15 @@
         </div>
 
         <div class="hands">
-                <img src="imgs/grijze_triangel.png" alt="play" class="play" onclick='playAudio("audio/02.wav")'>
+            <img src="imgs/grijze_triangel.png" id="play-btn" alt="play" class="play" onclick='playAudio("audio/02.wav")'>
         </div>
 
+        <div class="volumeboi">
+            <input type="range" class="slider" id="volume-control" value="100" >
+        </div>
+        
+
+        <script src="https://cdn.jsdelivr.net/gh/foobar404/wave.js/dist/bundle.iife.js"></script>
         <script src="app.js"></script>
     </body>
 </html>
