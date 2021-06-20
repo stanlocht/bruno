@@ -343,40 +343,47 @@ audio {
     background-image: url(imgs/1.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .II {
     background-image: url(imgs/2.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .III {
     background-image: url(imgs/3.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .IV {
     background-image: url(imgs/4.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .V {
     background-image: url(imgs/5.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .VI {
     background-image: url(imgs/6.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .VII {
     background-image: url(imgs/7.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
